@@ -99,4 +99,5 @@ def battle(knights_config: dict[str, dict]) -> dict[str, int]:
     return event.get_results()
 
 
-print(battle(KNIGHTS))
+if __name__ == "__main__":
+    print(battle(KNIGHTS))
