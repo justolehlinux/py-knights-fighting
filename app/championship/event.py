@@ -1,9 +1,11 @@
+from typing import Dict
+
 from app.championship.knight import Knight
 from app.championship.battle import Battle
 
 
 class Event:
-    def __init__(self, knights_dict: dict, versus: dict[str: str]) -> None:
+    def __init__(self, knights_dict: dict, versus: Dict[str, str]) -> None:
         self.knights_dict = knights_dict
         self.prepared_knights = {}
         self.results = {}
