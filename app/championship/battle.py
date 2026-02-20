@@ -3,6 +3,7 @@ from app.championship.knight import Knight
 
 class Battle:
     def __init__(self, knight1: Knight, knight2: Knight) -> None:
+        #2 knight
         self.knight1 = knight1
         self.knight2 = knight2
 
